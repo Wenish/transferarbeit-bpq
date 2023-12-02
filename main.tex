@@ -1,8 +1,14 @@
 \documentclass{article}
+\usepackage[german]{babel}
+
+\usepackage{csquotes}
+\usepackage[backend=biber]{biblatex}
 
 \usepackage{fontspec}
 
 \setmainfont{Arial}
+
+\addbibresource{references.bib}
 
 \title{Transfararbeit St.Galler Management-Modell SBB Cargo AG}
 \author{
@@ -13,7 +19,7 @@
 \begin{document}
 
 \begin{titlepage}
-\maketitle
+    \maketitle
 \end{titlepage}
 
 \setcounter{page}{2}
@@ -22,8 +28,21 @@
 
 \newpage
 
-\section{Start}
+\section{Das Unternehmen}
 
-Hello, world! Test 2 3
+\subsection{Organisation}
+
+Die SBB Cargo AG wurde 1999 gegründet und ist ein Eigenständiges Tochterunternehmen der SBB AG.
+Die SBB AG besitzt 100\% der Aktienanteile und ist somit die alleinige Inhaberin der SBB Cargo AG.
+Das Top Management besteht aus 8 Personen.
+Der Hauptsitz ist in Olten an der Bahnhofstrasse 12.
+Die SBB Cargo AG hat wiederum auch eine Tochterfirma ChemOil Logistics AG. \cite{test}
+
+\subsection{Geschäftsbereiche}
+
+\newpage
+
+\printbibliography
+
 
 \end{document}
