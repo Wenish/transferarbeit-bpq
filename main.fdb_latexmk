@@ -1,0 +1,16 @@
+# Fdb version 4
+["pdflatex"] 1701547889 "c:/Users/Jonas/Documents/GitHub/transferarbeit-bpq/main.tex" "main.pdf" "main" 1701547889 0
+  "C:/Users/Jonas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1701547803 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/Jonas/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1701547814 24213231 b9e6b1c11be475e2a665d67fbb1706ac ""
+  "C:/Users/Jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
+  "C:/Users/Jonas/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1698826601 20144 fbcf51733730d8f1a62143512ff5b1fe ""
+  "C:/Users/Jonas/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1698826601 8448 74078c4a887f2cdcd57c3ec111622740 ""
+  "C:/Users/Jonas/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1699552361 29988 6d57d2b884f7464419678df319af86d2 ""
+  "c:/Users/Jonas/Documents/GitHub/transferarbeit-bpq/main.tex" 1701547888 76 459899cf339f5c927842d2e23f4821ba ""
+  "main.aux" 1701547889 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1701547888 76 459899cf339f5c927842d2e23f4821ba ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)
