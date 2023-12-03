@@ -5,6 +5,7 @@
 \usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage{fontspec}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{graphicx}
 
 \setmainfont{Arial}
 
@@ -42,6 +43,13 @@ Abgeschlossen wird mit einer Empfehlung für die SBB Cargo AG.
 \section{Das Unternehmen}
 
 Als erstes schauen wir uns die SBB Cargo AG als Unternehmen an.
+
+\begin{figure}[htbp] % h bedeutet "here" und gibt an, dass das Bild hier eingefügt werden soll
+    \centering
+    \includegraphics[width=0.75\textwidth]{sbbcargoag} % Ersetze "bilddatei" durch den Dateinamen deines Bildes (ohne Dateiendung)
+    \caption{Zug SBB Cargo AG}\parencite[o. S.]{sbbcargoagBild}
+    \label{fig:bildlabel2}
+\end{figure}
 
 \subsection{Organisation}
 
@@ -137,6 +145,13 @@ Die Umleitung über die Panoramastrecke darf von Güterzügen nur sehr beschrän
 Das wiederum führte dazu, dass viele Kunden zum Strassentransport gewechselt sind.
 \end{itemize}
 
+\begin{figure}[htbp] % h bedeutet "here" und gibt an, dass das Bild hier eingefügt werden soll
+    \centering
+    \includegraphics[width=0.75\textwidth]{umfallGotthard} % Ersetze "bilddatei" durch den Dateinamen deines Bildes (ohne Dateiendung)
+    \caption{Gotthardtunnel Umfall}\parencite[o. S.]{gotthardtunnelBild}
+    \label{fig:bildlabel}
+\end{figure}
+
 \subsubsection{Gesellschaftliche Umweltsphäre}
 
 Kulturelle und Soziale Entwicklungen:
@@ -179,6 +194,12 @@ Gesamtwirtschaftliche Einflüsse:
      % Quelle: https://www.wsu.bs.ch/nm/2023-die-plangenehmigung-fuer-das-gateway-basel-nord-staerkt-den-logistikstandort-basel-und-die-verlagerungspolitik-des-bundes-wsu.html 
     Damit sollen mehr Güter vom Strassenverkehr auf die Schienen kommen.
 \end{itemize}
+\begin{figure}[htbp] % h bedeutet "here" und gibt an, dass das Bild hier eingefügt werden soll
+    \centering
+    \includegraphics[width=0.75\textwidth]{Verlagerungspolitik} % Ersetze "bilddatei" durch den Dateinamen deines Bildes (ohne Dateiendung)
+    \caption{Symbolisch Verlagerunspolitik}\parencite[o. S.]{verlagerungspolitikBild}
+    \label{fig:bildlabel3}
+\end{figure}
 Markt und Konkurrenz:
 \begin{itemize}
     \item Globalisierung:
@@ -300,10 +321,17 @@ Hiermit erklären wir, dass wir diese Arbeit ohne fremde Hilfe und ohne Verwendu
 \end{center}
 Bern, \today
 
-\newpage
+\cleardoublepage
+\printbibliography[title={Literaturverzeichnis}]
+\addcontentsline{toc}{section}{Literaturverzeichnis}
 
-\section{Literaturverzeichnis}
-\printbibliography[heading=none]
+\newcommand{\listoffiguresintoc}{
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{section}{\listfigurename}
+    \listoffigures
+}
+\listoffiguresintoc
 
 
 \end{document}
